@@ -1,0 +1,8 @@
+# Sample Customs seizure data for testing
+date,type,value,origin,serials
+2025-03-15,currency,926000000,Russia,RU12345;RU67890;RU24680
+2025-03-20,vehicle,95000,Libya
+2025-03-22,vessel,350000,Italy
+2025-03-25,currency,125000,Belarus,BY11223;BY33445
+2025-03-28,weapons,75000,Syria
+2025-04-01,drugs,220000,Colombia

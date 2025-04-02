@@ -1,0 +1,20 @@
+{
+  "name": "maltagovauctions",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc && cp -r public dist/",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.22.0"
+  }
+}
